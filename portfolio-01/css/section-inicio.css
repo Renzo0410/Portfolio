@@ -1,0 +1,115 @@
+/* SECTION 01: INDEX */
+.container-index {
+    min-height: 100vh;
+    align-items: center;
+}
+
+.container-contact01 {
+    justify-content: center;
+}
+
+.img-aboutMe01 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.thick-line {
+    height: 3px; 
+    background-color: #fff;
+}
+
+.img-circle {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #fff;
+    background-color: #fff;
+    z-index: 2;
+}
+
+.img-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text-above-line {
+    position: relative;
+    background-color: #1c1b3a;
+    padding: 0 10px;
+    z-index: 3;
+}
+
+.skills-wrapper {
+    overflow: hidden;
+    position: relative;
+}
+
+.skills-section {
+    margin-top: 3rem !important;
+    margin-bottom: 2rem;
+}
+
+.skills-marquee {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+
+.skills-track {
+    display: inline-block;
+    animation: scrollSkills 20s linear infinite;
+}
+
+.skills-track img {
+    height: 60px;
+    margin: 0 20px;
+    vertical-align: middle;
+    filter: brightness(0.9);
+    transition: transform 0.3s;
+}
+
+.skills-track img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+@keyframes scrollSkills {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.vertical-text {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    line-height: 1.2;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.vertical-text span {
+    display: block;
+    padding: 1px;
+}
+
+.skills-wrapper {
+    gap: 2rem;
+}
+
+@media (max-width: 992px) {
+    .container-img-index {
+        margin-top: 2rem;
+    }
+}

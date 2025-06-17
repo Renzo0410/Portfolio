@@ -1,0 +1,58 @@
+/* SECTION 02: ABOUT ME */
+.img-aboutMe02 {
+    max-width: 250px !important;
+    width: 80%;
+    object-fit: cover;
+    /* clip-path: polygon(0% 0%, 85% 0%, 100% 100%, 15% 100%); */
+    clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
+}
+
+.tech-cloud {
+    position: absolute;
+    width: 50px;
+    max-width: 15vw;
+    animation: float 6s ease-in-out infinite;
+    opacity: 0.9;
+}
+
+.tech-cloud01 {
+    top: -10px; 
+    left: 25px
+}
+
+.tech-cloud02 {
+    top: 40px; 
+    right: 5px;
+}
+
+.tech-cloud03 {
+    bottom: -20px; 
+    left: 0;
+}
+
+.text-justify {
+    text-align: justify !important;
+}
+
+@media (max-width: 576px) {
+    .section-aboutme p {
+        font-size: 0.95rem;
+    }
+
+    .tech-cloud {
+        width: 40px;
+    }
+}
+
+/* Animación suave */
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}

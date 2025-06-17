@@ -1,0 +1,19 @@
+/* Styles generals */
+.section-index,
+.section-proyects,
+.section-aboutme,
+.section-contact,
+.containerProyectos {
+    /* background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); */
+    /* background: linear-gradient(135deg, #2b0f3f, #45276b, #6a3093); */
+    /* background: linear-gradient(135deg, #3a0ca3, #7209b7, #b5179e); */
+    background: linear-gradient(120deg, #0f0c29, #302b63, #24243e);
+    background-attachment: fixed;
+    min-height: 100vh;
+    color: #fff;
+    font-family: 'Fira Code', monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
