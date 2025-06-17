@@ -35,7 +35,7 @@ const Projects = () => {
         '/img/projects/hospital/img07.png'
       ],
       technologies: ['PHP', 'CSS', 'Bootstrap', 'JavaScript', 'phpMyAdmin'],
-      github: 'https://github.com/Renzo0410/PHP/tree/main/00-Hospital_R%26G_Salud',
+      github: 'https://github.com/Renzo0410/Estudios/tree/main/php/proyecto-final/hospital',
       // demo: 'https://demo.com',
       detailedDescription: 'El proyecto consta de una página de inicio, sección de noticias, capacidad registrarse y acceder como usuario. Al contar con una base de datos solida se puede eligir y/o registrar nuevos administradores/usuarios, además de poder modificar/eliminar citas médicas y noticias.'
     },
@@ -54,7 +54,7 @@ const Projects = () => {
         '/img/projects/liga-deportiva/img07.png',
       ],
       technologies: ['HTML', 'CSS', 'JavaScript', 'Json', 'Ajax'],
-      github: 'https://github.com/Renzo0410/JavaScript/tree/main/00-LaLiga-Santander',
+      github: 'https://github.com/Renzo0410/Estudios/tree/main/javascript/proyecto-final/liga-deportiva',
       // demo: 'https://demo.com',
       detailedDescription: 'Cuenta con iconos superiores que redirigen a webs de cada club; detalles de estadios con uso de navegador; galerias destacadas con apartado de equipos ganadores. Visualización de equipos con más títulos y agregado de formularios con generador de presupuestos.'
     },
@@ -69,7 +69,7 @@ const Projects = () => {
         '/img/projects/tres-en-raya/img03.png',
       ],
       technologies: ['HTML', 'React', 'Vite', 'CSS', 'JavaScript'],
-      github: 'https://github.com/Renzo0410/JavaScript/tree/main/01-react/00-tres-en-raya',
+      github: 'https://github.com/Renzo0410/Tres-en-raya',
       // demo: 'https://demo.com',
       detailedDescription: 'Este proyecto tiene la finalidad de hacer práctica en el uso de React Vite facilitando el aprendizaje recreando el famoso juego "Tres en raya" con dinámicas donde se obtiene el ganador o, si no lo hay, la declaración de empate.'
     }
