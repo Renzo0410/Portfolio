@@ -1,0 +1,81 @@
+<!-- Modal con Carrusel: PROYECTO 03 -->
+
+<div class="modal fade" id="modalProyecto3" tabindex="-1"
+    aria-labelledby="modalProyecto3Label" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title fw-bold"
+                    id="modalProyecto3Label"><i class="bi bi-grid-3x3-gap"></i>
+                    TRES EN RAYA</h5>
+                <button type="button" class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Cerrar"></button>
+            </div>
+
+            <!-- MODAL BODY -->
+            <div class="modal-body">
+                <div class="text-center mb-3">
+                    <p id="carouselDescription"
+                        class="fw-medium text-muted">
+                        Este proyecto tiene la finalidad de hacer práctica
+                        en el uso de React Vite facilitando el aprendizaje
+                        recreando el famoso juego "Tres en raya" con
+                        dinámicas donde se obtiene el ganador o, si no lo
+                        hay, la declaración de empate.
+                    </p>
+                </div>
+
+                <!-- Carrusel -->
+                <div id="carouselProyecto3"
+                    class="carousel slide carousel-modal-projects"
+                    data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <!-- Imagen 01 -->
+                        <div class="carousel-item active">
+                            <img
+                                src="./img/Projects/TRES_EN_RAYA/img01.png"
+                                class="carrouselModalImg d-block w-100 img-darken"
+                                alt="Imagen 01">
+                        </div>
+                        <!-- Imagen 02 -->
+                        <div class="carousel-item">
+                            <img
+                                src="./img/Projects/TRES_EN_RAYA/img02.png"
+                                class="carrouselModalImg d-block w-100 img-darken"
+                                alt="Imagen 02">
+                        </div>
+                        <!-- Imagen 03 -->
+                        <div class="carousel-item">
+                            <img
+                                src="./img/Projects/TRES_EN_RAYA/img03.png"
+                                class="carrouselModalImg d-block w-100 img-darken"
+                                alt="Imagen 03">
+                        </div>
+                    </div>
+
+                    <!-- Controles -->
+                    <button class="btn-icon02 carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselProyecto3"
+                        data-bs-slide="prev">
+                        <span
+                            class="carousel-control-prev-icon carousel-control-prev-icon02"></span>
+                    </button>
+                    <button class="btn-icon02 carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselProyecto3"
+                        data-bs-slide="next">
+                        <span
+                            class="carousel-control-next-icon carousel-control-next-icon02"></span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary"
+                    data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
