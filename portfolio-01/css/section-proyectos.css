@@ -1,11 +1,15 @@
 /* SECTION 03: PROJETS */
 .card-p01, .card-p02, .card-p03, .card-p04 {
-    color: #302b63 !important;
     cursor: pointer;
     width: 22rem;
     max-width: 500px !important;
     height: 100% !important;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-text {
+    color: #6f6f6f !important;
+    text-align: justify !important;
 }
 
 .card-p01:hover, .card-p02:hover, .card-p03:hover, .card-p04:hover {
@@ -79,21 +83,4 @@
 .carousel-control-next-icon02 {
     width: 1.5rem !important;
     height: 1.5rem !important;
-}
-
-.bg-warning, .bg-info-ajax {
-    color: #000000 !important;
-}
-
-.bg-vite {
-    background-color: #7d42f3;
-    color: #ffcb47 !important;
-}
-
-.bg-html {
-    background-color: #f18628;
-}
-
-.bg-bootstrap {
-    background-color: #ad2cdb;
 }

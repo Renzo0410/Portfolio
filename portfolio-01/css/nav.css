@@ -4,6 +4,10 @@
     transition: background-color 0.3s ease;
 }
 
+.nav-link {
+    color: #6f6f6f !important;
+}
+
 @media (max-width: 992px) {
     .custom-navbar {
         /* background-color: rgba(33, 37, 41, 0.95);  */
