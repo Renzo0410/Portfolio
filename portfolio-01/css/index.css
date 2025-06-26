@@ -2,12 +2,12 @@
 .section-index,
 .section-proyects,
 .section-aboutme,
-.section-contact,
+.section-contacto,
+.section-educacion,
 .containerProyectos {
     background-attachment: fixed;
     min-height: 100vh;
     color: #000;
-    font-family: 'Fira Code', monospace;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,6 +17,4 @@
 body {
     font-family: "Outfit", sans-serif !important;
     font-optical-sizing: auto;
-    /* font-weight: <weight>; */
-    /* font-style: normal; */
 }
