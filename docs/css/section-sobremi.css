@@ -3,7 +3,6 @@
     max-width: 250px !important;
     width: 80%;
     object-fit: cover;
-    /* clip-path: polygon(0% 0%, 85% 0%, 100% 100%, 15% 100%); */
     clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
 }
 
@@ -13,6 +12,16 @@
     max-width: 15vw;
     animation: float 6s ease-in-out infinite;
     opacity: 0.9;
+}
+
+.skillAboutMe {
+    padding: 6px;
+    background-color: #e6e5e5;
+    border-radius: 10px;
+}
+
+.imgSkillAboutMe {
+    width: 30px;
 }
 
 .tech-cloud01 {

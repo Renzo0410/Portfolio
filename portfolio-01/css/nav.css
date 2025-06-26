@@ -1,6 +1,6 @@
 /* Navigator */
 .custom-navbar {
-    background-color: transparent;
+    background-color: rgba(var(--bs-light-rgb), 0.9) !important;
     transition: background-color 0.3s ease;
 }
 
@@ -8,10 +8,13 @@
     color: #6f6f6f !important;
 }
 
+.navContainerProjects {
+    display: flex;
+    justify-content: flex-start !important;
+}
+
 @media (max-width: 992px) {
     .custom-navbar {
-        /* background-color: rgba(33, 37, 41, 0.95);  */
-        background: linear-gradient(120deg, #0f0c29, #302b63, #24243e);
         border-bottom: 1px #6f6f6f solid;
     }
 }

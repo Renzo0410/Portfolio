@@ -16,7 +16,6 @@
     border-radius: 50%;
     overflow: hidden;
     border: 1px solid #000;
-    /* background-color: #fff; */
     z-index: 2;
 }
 
@@ -30,8 +29,12 @@
     color: #6f6f6f !important;
 }
 
+.containerBtnsCnts {
+    margin: auto !important;
+}
+/* 
 @media (max-width: 992px) {
     .container-img-index {
         margin-top: 2rem;
     }
-}
+} */

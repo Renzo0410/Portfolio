@@ -22,6 +22,16 @@
     object-position: center;
 }
 
+.tecnologyProject {
+    background-color: #e6e5e5;
+    color: #000 !important;
+    border-radius: 8px;
+    font-weight: 400 !important;
+    padding: 4px 14px;
+    font-size: 14px;
+    /* margin: 5px 0 !important; */
+}
+
 @media (max-width: 1199px) {
     .container-card01, .container-card02 {
         margin-bottom: 1.5rem;
@@ -33,12 +43,6 @@
 }
 
 @media (max-width: 991px) {
-    .card-p01, .card-p02, .card-p03, .card-p04 {
-        width: 25rem !important;
-    }
-}
-
-@media (max-width: 576px) {
     .card-p01, .card-p02, .card-p03, .card-p04 {
         width: 100% !important;
     }

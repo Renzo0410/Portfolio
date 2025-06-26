@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { id: 'inicioContainer', file: 'section-inicio.html' },
         { id: 'sobremiContainer', file: 'section-sobremi.html' },
         { id: 'proyectosContainer', file: 'section-proyectos.html' },
+        { id: 'educacionContainer', file: 'section-educacion.html' },
         { id: 'contactoContainer', file: 'section-contacto.html' },
     ];
 

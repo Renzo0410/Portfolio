@@ -1,0 +1,23 @@
+/* SECTION 04: CONTACT */
+.contact-card {
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.bg-fill {
+    position: absolute;
+    inset: 0;
+    transform: translateY(100%);
+    opacity: 0.15;
+    transition: transform 0.5s ease;
+    z-index: 0;
+}
+
+.contact-card:hover .bg-fill {
+    transform: translateY(0%);
+}
