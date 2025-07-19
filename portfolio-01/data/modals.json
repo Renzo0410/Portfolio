@@ -1,0 +1,54 @@
+[
+    {
+        "id": "modalProyecto1",
+        "title": "TRES EN RAYA",
+        "description": "Juego clásico desarrollado con React.",
+        "longDescription": "Este proyecto tiene la finalidad de hacer práctica en el uso de React Vite facilitando el aprendizaje recreando el famoso juego 'Tres en raya' con dinámicas donde se obtiene el ganador o, si no lo hay, la declaración de empate.",
+        "images": [
+            "./img/Projects/TRES_EN_RAYA/img01.png",
+            "./img/Projects/TRES_EN_RAYA/img02.png",
+            "./img/Projects/TRES_EN_RAYA/img03.png"
+        ]
+    },
+    {
+        "id": "modalProyecto2",
+        "title": "LIGA DEPORTIVA",
+        "description": "Sitio inspirado en LaLiga Santander para practicar responsive.",
+        "longDescription": "Este proyecto cuenta con una página principal con iconos superiores que direccionan a webs de cada club. Detalles y ubicación de estadios mediante el uso de un navegador más añadido de noticias. Sección de galerías destacadas y videos exclusivos más el apartado de equipos ganadores. Uso de JSON para ver equipos más ganadores. Se hace uso de formularios y generador de presupuesto ante una posible compra.",
+        "images": [
+            "./img/Projects/LIGADEPORTIVA/img01.png",
+            "./img/Projects/LIGADEPORTIVA/img02.png",
+            "./img/Projects/LIGADEPORTIVA/img03.png",
+            "./img/Projects/LIGADEPORTIVA/img04.png",
+            "./img/Projects/LIGADEPORTIVA/img05.png",
+            "./img/Projects/LIGADEPORTIVA/img06.png",
+            "./img/Projects/LIGADEPORTIVA/img07.png"
+        ]
+    },
+    {
+        "id": "modalProyecto3",
+        "title": "R&G SALUD",
+        "description": "Página web para hospitales y doctores desarrollada en PHP.",
+        "longDescription": "Aplicación web creada para mejorar la comunicación entre pacientes y doctores. Permite gestionar citas, información de doctores y hospitales, utilizando PHP y phpMyAdmin como base de datos.",
+        "images": [
+            "./img/Projects/R&GSALUD/img01.png",
+            "./img/Projects/R&GSALUD/img02.png",
+            "./img/Projects/R&GSALUD/img03.png",
+            "./img/Projects/R&GSALUD/img04.png",
+            "./img/Projects/R&GSALUD/img05.png",
+            "./img/Projects/R&GSALUD/img06.png",
+            "./img/Projects/R&GSALUD/img07.png"
+        ]
+    },
+    {
+        "id": "modalProyecto4",
+        "title": "APRENDE JAVASCRIPT",
+        "description": "Plataforma interactiva para aprender JavaScript.",
+        "longDescription": "Plataforma educativa con ejercicios prácticos y dinámicos para aprender JavaScript desde cero. Incluye teoría, prácticas interactivas y un entorno gamificado para mantener el aprendizaje divertido.",
+        "images": [
+            "./img/Projects/aprende-javascript/img-01.png",
+            "./img/Projects/aprende-javascript/img-02.png",
+            "./img/Projects/aprende-javascript/img-03.png"
+        ]
+    }
+]
