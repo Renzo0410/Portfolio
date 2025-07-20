@@ -1,6 +1,6 @@
 async function loadSkills() {
     try {
-        const response = await fetch('/data/skills.json'); // Ajusta la ruta si está en otra carpeta
+        const response = await fetch('./data/skills.json'); // Ajusta la ruta si está en otra carpeta
         const skillsData = await response.json();
 
         // Contenedores donde se insertarán los elementos
