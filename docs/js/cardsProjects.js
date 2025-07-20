@@ -7,9 +7,7 @@ async function loadProjects() {
         const isIndexPage = currentPath.endsWith('/') || currentPath.endsWith('section-proyectos.html');
 
         // Ajustar ruta del JSON dependiendo de dónde estamos
-        const jsonPath = isProjectsPage
-            ? '../data/projects.json'
-            : './data/projects.json';
+        const jsonPath = isProjectsPage ? '/data/projects.json' : '/data/projects.json';
 
         const response = await fetch(jsonPath);
         const projects = await response.json();

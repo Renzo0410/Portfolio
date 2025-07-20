@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const isInViews = window.location.pathname.includes('/views/');
-    const basePath = isInViews ? '../sections/' : 'sections/';
+    const basePath = '/sections/';
 
     const sections = [
         { id: 'navContainer', file: 'nav.html' },

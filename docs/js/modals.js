@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const container = document.getElementById('modalContainer');
 
     const isProjectsPage = window.location.pathname.includes('projects.html');
-    const jsonPath = isProjectsPage ? '../data/modals.json' : './data/modals.json';
+    const jsonPath = isProjectsPage ? '/data/modals.json' : '/data/modals.json';
 
     fetch(jsonPath)
         .then(res => res.json())
