@@ -4,12 +4,6 @@
     align-items: center;
 }
 
-.img-aboutMe01 {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-}
-
 .img-circle {
     width: 160px;
     height: 160px;
@@ -32,9 +26,3 @@
 .containerBtnsCnts {
     margin: auto !important;
 }
-/* 
-@media (max-width: 992px) {
-    .container-img-index {
-        margin-top: 2rem;
-    }
-} */

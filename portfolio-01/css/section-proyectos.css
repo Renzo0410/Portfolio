@@ -1,8 +1,6 @@
 /* SECTION 03: PROJETS */
 .card:hover {
     cursor: pointer;
-    /* overflow: hidden;
-    position: relative; */
 }
 
 .card-text {
@@ -13,20 +11,6 @@
 .card-img-top {
     height: 150px;
     object-position: center;
-    /* transition: transform 0.3s ease-in-out;  */
-}
-
-/* .card:hover .card-img-top {
-    transform: scale(1.05);
-} */
-
-.tecnologyProject {
-    background-color: #e6e5e5;
-    color: #000 !important;
-    border-radius: 8px;
-    font-weight: 400 !important;
-    padding: 4px 14px;
-    font-size: 14px;
 }
 
 @media (max-width: 1199px) {
@@ -76,8 +60,6 @@
     height: 1.5rem !important;
 }
 
-
-/* Contenedor principal de tecnologías */
 .tech-container {
     display: flex;
     flex-direction: column;
@@ -85,14 +67,12 @@
     margin: 10px 0;
 }
 
-/* Cada fila con dos tecnologías */
 .tech-row {
     display: flex;
     justify-content: center;
     gap: 10px;
 }
 
-/* Cada nombre de tecnología */
 .tech-name {
     background-color: #e6e5e5;
     color: #000;
