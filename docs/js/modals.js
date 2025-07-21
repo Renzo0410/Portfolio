@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                 </div>
                                 <div class="modal-body">
                                     <div class="text-center mb-3">
-                                        <p class="fw-medium text-muted">${modal.longDescription}</p>
+                                        <p class="fw-medium text-muted">${modal.descriptionModal}</p>
                                     </div>
 
                                     <!-- Carrusel -->

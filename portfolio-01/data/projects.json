@@ -1,7 +1,7 @@
 [
     {
         "title": "APRENDE JAVASCRIPT",
-        "description": "Página con un formato de aprendizaje dinámico y sencillo para quienes quieran aprender de este lenguaje de programación.",
+        "descriptionCard": "Página dinámica y sencilla para quienes quieran aprender de este lenguaje de programación.",
         "image": "./img/Projects/aprende-javascript/img-01.png",
         "technologies": [
             "TypeScript",
@@ -14,7 +14,7 @@
     },
     {
         "title": "R&G SALUD",
-        "description": "Página web desarrollada durante el aprendizaje en MasterD. Centrada para hospitales, doctores y/o pacientes.",
+        "descriptionCard": "Página web centrada para mejorar la comunicación entre doctores y pacientes.",
         "image": "./img/Projects/R&GSALUD/img00.png",
         "technologies": [
             "PHP",
@@ -28,7 +28,7 @@
     },
     {
         "title": "LIGA DEPORTIVA",
-        "description": "Proyecto inspirado en el sitio oficial de LaLiga Santander. Desarrollado para practicar diseño web responsive.",
+        "descriptionCard": "Proyecto desarrolado para prácticar diseño web responsive inspirado en LaLiga española.",
         "image": "./img/Projects/LIGADEPORTIVA/img00.png",
         "technologies": [
             "HTML",
@@ -41,7 +41,7 @@
     },
     {
         "title": "TRES EN RAYA",
-        "description": "Proyecto sobre el famoso juego Tres en raya.",
+        "descriptionCard": "Proyecto sobre el famoso juego 'Tres en raya'.",
         "image": "./img/Projects/TRES_EN_RAYA/img00.png",
         "technologies": [
             "HTML",

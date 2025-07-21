@@ -1,10 +1,8 @@
 /* SECTION 03: PROJETS */
-.card-p01, .card-p02, .card-p03, .card-p04 {
+.card:hover {
     cursor: pointer;
-    width: 22rem;
-    max-width: 500px !important;
-    height: 100% !important;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* overflow: hidden;
+    position: relative; */
 }
 
 .card-text {
@@ -12,15 +10,16 @@
     text-align: justify !important;
 }
 
-.card-p01:hover, .card-p02:hover, .card-p03:hover, .card-p04:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-}
-
 .card-img-top {
     height: 150px;
     object-position: center;
+    /* transition: transform 0.3s ease-in-out;  */
 }
+
+/* .card:hover .card-img-top {
+    transform: scale(1.05);
+} */
+
 
 .tecnologyProject {
     background-color: #e6e5e5;
@@ -29,22 +28,11 @@
     font-weight: 400 !important;
     padding: 4px 14px;
     font-size: 14px;
-    /* margin: 5px 0 !important; */
 }
 
 @media (max-width: 1199px) {
-    .container-card01, .container-card02 {
-        margin-bottom: 1.5rem;
-    }
-
     .title-pjts, .containerAbMe {
         margin-top: 2rem !important;
-    }
-}
-
-@media (max-width: 991px) {
-    .card-p01, .card-p02, .card-p03, .card-p04 {
-        width: 100% !important;
     }
 }
 
@@ -87,4 +75,31 @@
 .carousel-control-next-icon02 {
     width: 1.5rem !important;
     height: 1.5rem !important;
+}
+
+
+/* Contenedor principal de tecnologías */
+.tech-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 10px 0;
+}
+
+/* Cada fila con dos tecnologías */
+.tech-row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Cada nombre de tecnología */
+.tech-name {
+    background-color: #e6e5e5;
+    color: #000;
+    border-radius: 6px;
+    padding: 4px 10px;
+    font-size: 12px;
+    text-align: center;
+    flex: 1;
 }
