@@ -19,63 +19,78 @@
     "skillsList": [
         {
             "name": "HTML",
-            "src": "./img/Skills/html-96-n.png"
+            "src": "./img/Skills/html-96-n.png",
+            "category": "Front End"
         },
         {
             "name": "CSS",
-            "src": "./img/Skills/css-96-n.png"
+            "src": "./img/Skills/css-96-n.png",
+            "category": "Front End"
         },
         {
             "name": "JavaScript",
-            "src": "./img/Skills/js-100-n.png"
+            "src": "./img/Skills/js-100-n.png",
+            "category": "Front End"
         },
         {
             "name": "React",
-            "src": "./img/Skills/react-96-n.png"
+            "src": "./img/Skills/react-96-n.png",
+            "category": "Front End"
         },
         {
             "name": "Bootstrap",
-            "src": "./img/Skills/bootstrap-100-n.png"
+            "src": "./img/Skills/bootstrap-100-n.png",
+            "category": "Front End"
         },
         {
             "name": "Tailwind",
-            "src": "./img/Skills/tailwind-96-n.png"
+            "src": "./img/Skills/tailwind-96-n.png",
+            "category": "Front End"
         },
         {
             "name": "TypeScript",
-            "src": "./img/Skills/typescript-100-n.png"
+            "src": "./img/Skills/typescript-100-n.png",
+            "category": "Front End"
         },
         {
             "name": "Python",
-            "src": "./img/Skills/python-100-n.png"
+            "src": "./img/Skills/python-100-n.png",
+            "category": "Back End"
         },
         {
             "name": "Java",
-            "src": "./img/Skills/java-100-n.png"
+            "src": "./img/Skills/java-100-n.png",
+            "category": "Back End"
         },
         {
             "name": "PHP",
-            "src": "./img/Skills/php-100-n.png"
+            "src": "./img/Skills/php-100-n.png",
+            "category": "Back End"
         },
         {
             "name": "MySQL",
-            "src": "./img/Skills/mysql-100-n.png"
+            "src": "./img/Skills/mysql-100-n.png",
+            "category": "Back End"
         },
         {
             "name": "SQL",
-            "src": "./img/Skills/sql-100-n.png"
+            "src": "./img/Skills/sql-100-n.png",
+            "category": "Back End"
         },
         {
             "name": "JSON",
-            "src": "./img/Skills/json-100-n.png"
+            "src": "./img/Skills/json-100-n.png",
+            "category": "Otros"
         },
         {
             "name": "Git",
-            "src": "./img/Skills/git-100-n.png"
+            "src": "./img/Skills/git-100-n.png",
+            "category": "Otros"
         },
         {
             "name": "GitHub",
-            "src": "./img/Skills/github-96-n.png"
+            "src": "./img/Skills/github-96-n.png",
+            "category": "Otros"
         }
     ]
 }

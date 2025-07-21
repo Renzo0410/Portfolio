@@ -1,7 +1,7 @@
 /* SECTION 02: ABOUT ME */
 .img-aboutMe02 {
     max-width: 250px !important;
-    width: 80%;
+    width: 100%;
     object-fit: cover;
     clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
 }
@@ -31,12 +31,12 @@
 
 .tech-cloud02 {
     top: 40px; 
-    right: 5px;
+    right: -15px;
 }
 
 .tech-cloud03 {
     bottom: -20px; 
-    left: 0;
+    right: 220px;
 }
 
 .text-justify {
