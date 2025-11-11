@@ -1,5 +1,17 @@
 [
     {
+        "title": "COLOR PICKER",
+        "descriptionCard": "Web generativa de distintas combinaciones de colores en hexadecimal, RGB y RGBA.",
+        "image": "./img/Projects/web-colors/web-colors1.png",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "modalTarget": "#modalProyecto5",
+        "github": "https://github.com/Renzo0410/Web-colors"
+    },
+    {
         "title": "APRENDE JAVASCRIPT",
         "descriptionCard": "Página dinámica y sencilla para quienes quieran aprender de este lenguaje de programación.",
         "image": "./img/Projects/aprende-javascript/img-01.png",
@@ -14,7 +26,7 @@
     },
     {
         "title": "R&G SALUD",
-        "descriptionCard": "Página web centrada para mejorar la comunicación entre doctores y pacientes.",
+        "descriptionCard": "Web centrada para mejorar la comunicación entre doctores y pacientes.",
         "image": "./img/Projects/R&GSALUD/img00.png",
         "technologies": [
             "PHP",

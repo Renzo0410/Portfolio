@@ -46,5 +46,13 @@
             "./img/Projects/aprende-javascript/img-02.png",
             "./img/Projects/aprende-javascript/img-03.png"
         ]
+    },
+    {
+        "id": "modalProyecto5",
+        "title": "WEB DE COLORES",
+        "descriptionModal": "Web dinámica que facilita la creación de paletas de colores en formatos hexadecimal, RGB y RGBA, con opciones para copiar y descargar las combinaciones generadas.",
+        "images": [
+            "./img/Projects/web-colors/web-colors1.png"
+        ]
     }
 ]

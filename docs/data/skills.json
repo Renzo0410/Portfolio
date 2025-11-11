@@ -80,17 +80,17 @@
         {
             "name": "JSON",
             "src": "./img/Skills/json-100-n.png",
-            "category": "Otros"
+            "category": "Tecnologías"
         },
         {
             "name": "Git",
             "src": "./img/Skills/git-100-n.png",
-            "category": "Otros"
+            "category": "Tecnologías"
         },
         {
             "name": "GitHub",
             "src": "./img/Skills/github-96-n.png",
-            "category": "Otros"
+            "category": "Tecnologías"
         }
     ]
 }

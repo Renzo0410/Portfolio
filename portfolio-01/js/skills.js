@@ -15,45 +15,49 @@ async function loadSkills() {
             cloudContainer.appendChild(img);
         });
 
-        // Agrupar skills por categoría
-        const categories = ['Front End', 'Back End', 'Otros'];
+        // Contenedor principal como fila (3 columnas)
+        const row = document.createElement('div');
+        row.className = 'row g-4 text-center justify-content-center';
+
+        const categories = ['Front End', 'Back End', 'Tecnologías'];
 
         categories.forEach(category => {
-            // Crear un contenedor para cada categoría
-            const categoryDiv = document.createElement('div');
-            categoryDiv.className = 'skills-category col-12 mb-4';
+            // Columna por categoría
+            const col = document.createElement('div');
+            col.className = 'col-12 col-md-4 mb-4 div-skills-about-me';
 
-            // Título de categoría
+            // Título de la categoría
             const title = document.createElement('h4');
             title.textContent = category;
-            title.className = 'text-center fw-bold mb-3';
-            categoryDiv.appendChild(title);
+            title.className = 'fw-bold mb-3';
+            col.appendChild(title);
 
-            // Contenedor de los skills
-            const skillsRow = document.createElement('div');
-            skillsRow.className = 'row justify-content-center';
+            // Contenedor de skills
+            const skillsWrapper = document.createElement('div');
+            skillsWrapper.className = 'd-flex flex-wrap justify-content-center gap-3';
 
-            // Filtrar y agregar skills de esta categoría
+            // Agregar skills de esta categoría
             skillsData.skillsList
                 .filter(skill => skill.category === category)
                 .forEach(skill => {
                     const skillDiv = document.createElement('div');
-                    skillDiv.className = 'm-1 col-3 col-md-2 skillAboutMe';
+                    skillDiv.className = 'skillAboutMe';
 
                     const img = document.createElement('img');
                     img.src = skill.src;
                     img.alt = skill.name;
                     img.title = skill.name;
-                    img.className = 'imgSkillAboutMe m-auto';
+                    img.className = 'imgSkillAboutMe';
 
                     skillDiv.appendChild(img);
-                    skillsRow.appendChild(skillDiv);
+                    skillsWrapper.appendChild(skillDiv);
                 });
 
-            categoryDiv.appendChild(skillsRow);
-            listContainer.appendChild(categoryDiv);
+            col.appendChild(skillsWrapper);
+            row.appendChild(col);
         });
 
+        listContainer.appendChild(row);
     } catch (error) {
         console.error('Error cargando skills:', error);
     }

@@ -15,13 +15,28 @@
 }
 
 .skillAboutMe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 5px;
     background-color: #e6e5e5;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .imgSkillAboutMe {
     width: 25px;
+    height: auto;
+    transition: transform 0.2s ease-in-out;
+}
+
+.imgSkillAboutMe:hover {
+    transform: scale(1.1);
+}
+
+.div-skills-about-me {
+    border: 1px solid rgb(187, 187, 187);
+    border-radius: 20px;
+    padding: 15px;
 }
 
 .tech-cloud01 {
