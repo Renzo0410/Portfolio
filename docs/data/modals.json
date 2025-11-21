@@ -54,5 +54,14 @@
         "images": [
             "./img/Projects/web-colors/web-colors1.png"
         ]
+    },
+    {
+        "id": "modalProyecto6",
+        "title": "CARTA PONJA NIKKEI",
+        "descriptionModal": "Web que facilita el aprendizaje de forma visual para conocer la carta del restaurente Ponja Nikkei.",
+        "images": [
+            "./img/Projects/ponja_nikkei/img-01.png",
+            "./img/Projects/ponja_nikkei/img-02.png"
+        ]
     }
 ]

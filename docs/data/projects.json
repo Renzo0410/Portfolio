@@ -1,5 +1,18 @@
 [
     {
+        "title": "CARTA PONJA NIKKEI",
+        "descriptionCard": "Web que facilita el aprendizaje de forma visual para conocer la carta del restaurente Ponja Nikkei.",
+        "image": "./img/Projects/ponja_nikkei/img-01.png",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "JSON"
+        ],
+        "modalTarget": "#modalProyecto6",
+        "github": "https://github.com/Renzo0410/Carta_PONJA"
+    },
+    {
         "title": "COLOR PICKER",
         "descriptionCard": "Web generativa de distintas combinaciones de colores en hexadecimal, RGB y RGBA.",
         "image": "./img/Projects/web-colors/web-colors1.png",
